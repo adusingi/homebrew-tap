@@ -1,18 +1,26 @@
-# Homebrew tap for alignpoll
+# adusingi Homebrew tap
 
-`alignpoll` is the terminal client for [AlignPoll](https://alignpoll.com).
+Command-line tools by adusingi, for macOS and Linux.
 
-> **Status:** no formula yet. The first one is published with the first CLI
-> release.
+| Formula | What it is |
+|---|---|
+| `alignpoll` | The terminal client for [AlignPoll](https://alignpoll.com) (first release pending) |
 
-## Install (after the first release)
+## Install
 
 ```sh
-brew install adusingi/align/alignpoll
+brew install adusingi/tap/alignpoll
+```
+
+Or tap once, then use the short name:
+
+```sh
+brew tap adusingi/tap
+brew install alignpoll
 ```
 
 ## About this repository
 
-This tap holds only the formula `Formula/alignpoll.rb`. The release workflow
-updates it on each release. The binaries come from
+Each formula lives in `Formula/<name>.rb` and is updated by its project's
+release workflow. The `alignpoll` binaries come from
 [adusingi/alignpoll-cli](https://github.com/adusingi/alignpoll-cli).
