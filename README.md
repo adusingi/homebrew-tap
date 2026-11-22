@@ -15,4 +15,4 @@ brew install adusingi/align/alignpoll
 
 This tap holds only the formula `Formula/alignpoll.rb`. The release workflow
 updates it on each release. The binaries come from
-[adusingi/align-cli](https://github.com/adusingi/align-cli).
+[adusingi/alignpoll-cli](https://github.com/adusingi/alignpoll-cli).
